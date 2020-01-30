@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf520c30f50a414994baa59768da3c7, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  Cash: 0
+  Record: 0
+  Players:
+  - _name: Jon
+    _prefab: {fileID: 7607769038597818368, guid: 52fd98360f2f8d845a9574fa0ae306a5,
+      type: 3}
+    _isAvailable: 1
+  - _name: Miki
+    _prefab: {fileID: 3232056466336308986, guid: a7d403adbf9404547a50713e6fd02cd7,
+      type: 3}
+    _isAvailable: 0
+  - _name: Amigle
+    _prefab: {fileID: 9173686978820302610, guid: b3be8029253063d41b709f5acd7d0f4c,
+      type: 3}
+    _isAvailable: 1
+  CurrentPlayer:
+    _name: 
+    _prefab: {fileID: 0}
+    _isAvailable: 0
